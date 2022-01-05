@@ -1,0 +1,167 @@
+{
+	"textures": [
+		{
+			"image": "login-0.webp",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1842,
+				"h": 962
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "bg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1520,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1520,
+						"h": 960
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1520,
+						"h": 960
+					}
+				},
+				{
+					"filename": "button-active",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 318,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 318,
+						"h": 105
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1,
+						"w": 318,
+						"h": 105
+					}
+				},
+				{
+					"filename": "button-hover",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 318,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 318,
+						"h": 105
+					},
+					"frame": {
+						"x": 1523,
+						"y": 108,
+						"w": 318,
+						"h": 105
+					}
+				},
+				{
+					"filename": "button",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 318,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 318,
+						"h": 105
+					},
+					"frame": {
+						"x": 1523,
+						"y": 215,
+						"w": 318,
+						"h": 105
+					}
+				},
+				{
+					"filename": "note",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 284,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 284,
+						"h": 226
+					},
+					"frame": {
+						"x": 1523,
+						"y": 322,
+						"w": 284,
+						"h": 226
+					}
+				},
+				{
+					"filename": "checkbox-checked",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 53,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 53,
+						"h": 53
+					},
+					"frame": {
+						"x": 1523,
+						"y": 550,
+						"w": 53,
+						"h": 53
+					}
+				},
+				{
+					"filename": "checkbox",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 53,
+						"h": 53
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 8,
+						"w": 45,
+						"h": 45
+					},
+					"frame": {
+						"x": 1578,
+						"y": 550,
+						"w": 45,
+						"h": 45
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:519599954cf4f4bb1f5e3b705e20a0fc:584517ab21a318ada49b8b1cab770040:ceb3be2d81d4999ee702c7efcd9a32f1$"
+	}
+}
