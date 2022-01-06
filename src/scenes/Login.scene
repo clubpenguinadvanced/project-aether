@@ -1,0 +1,258 @@
+{
+    "id": "13cdc1c2-4409-4daa-a78b-748428288d69",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [
+            "project-aether/assets/asset-pack.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Login",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "fa1ffd73-b8e6-43ba-9c9a-51ee39b19809",
+            "label": "bg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "login",
+                "frame": "bg"
+            },
+            "x": 760,
+            "y": 480
+        },
+        {
+            "type": "Sprite",
+            "id": "7fadb91e-0acf-46fa-aec7-fcaee3294102",
+            "label": "loginBtn",
+            "scope": "CLASS",
+            "components": [
+                "Button"
+            ],
+            "Button.spriteName": "button",
+            "Button.callback": "() => this.login()",
+            "texture": {
+                "key": "login",
+                "frame": "button"
+            },
+            "x": 760,
+            "y": 497
+        },
+        {
+            "type": "Rectangle",
+            "id": "808b0f0b-4884-49fd-be0a-e8aa9329ba35",
+            "label": "usernameBox",
+            "scope": "CLASS",
+            "components": [],
+            "x": 796,
+            "y": 143,
+            "isFilled": true,
+            "strokeColor": "#000000",
+            "isStroked": true,
+            "width": 440,
+            "height": 60
+        },
+        {
+            "type": "Text",
+            "id": "c8256440-d703-4e37-ae1b-3423637d98f8",
+            "label": "usernameText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 564,
+            "y": 143,
+            "originX": 1,
+            "originY": 0.5,
+            "text": "Penguin Name:",
+            "align": "right",
+            "fontFamily": "Burbank Small",
+            "fontSize": "32px",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Rectangle",
+            "id": "a4c37711-8b90-4325-af4a-d81a06f181c6",
+            "label": "passwordBox",
+            "scope": "CLASS",
+            "components": [],
+            "x": 796,
+            "y": 228,
+            "isFilled": true,
+            "strokeColor": "#000000",
+            "isStroked": true,
+            "width": 440,
+            "height": 60
+        },
+        {
+            "type": "Text",
+            "id": "2d37fd77-f93d-4987-989b-2b2ee2073c6f",
+            "label": "passwordText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 564,
+            "y": 228,
+            "originX": 1,
+            "originY": 0.5,
+            "text": "Password:",
+            "align": "right",
+            "fontFamily": "Burbank Small",
+            "fontSize": "32px",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Sprite",
+            "id": "fa0d87ab-f991-45df-8885-572c38c5fb54",
+            "label": "rememberPenguinCheckbox",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "login",
+                "frame": "checkbox"
+            },
+            "x": 530,
+            "y": 312
+        },
+        {
+            "type": "Text",
+            "id": "fda3a694-78c9-4673-9167-9247fc517552",
+            "label": "rememberPenguinText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 565,
+            "y": 317,
+            "originY": 0.5,
+            "text": "Remember me on this computer",
+            "fontFamily": "Burbank Small",
+            "fontSize": "32px",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Sprite",
+            "id": "54286d87-994b-4283-811c-b78c990fb73e",
+            "label": "rememberPasswordCheckbox",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "login",
+                "frame": "checkbox"
+            },
+            "x": 530,
+            "y": 384
+        },
+        {
+            "type": "Text",
+            "id": "6d6d8302-4bf1-4a81-8fc9-124889025138",
+            "label": "rememberPasswordText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 565,
+            "y": 389,
+            "originY": 0.5,
+            "text": "Remember my password",
+            "fontFamily": "Burbank Small",
+            "fontSize": "32px",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Image",
+            "id": "dc1c44ae-0bb0-41f4-b6b3-23628828c3ad",
+            "label": "note",
+            "components": [],
+            "texture": {
+                "key": "login",
+                "frame": "note"
+            },
+            "x": 1188,
+            "y": 571
+        },
+        {
+            "type": "Text",
+            "id": "43bdcbd4-8299-40be-8dd9-1cedb3d536a8",
+            "label": "loginBtnText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 760,
+            "y": 495,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Login",
+            "align": "center",
+            "fontFamily": "Burbank Small",
+            "fontSize": "45px",
+            "color": "#ffffffff"
+        },
+        {
+            "type": "Text",
+            "id": "1752be53-a11f-403e-86e9-e859be626447",
+            "label": "forgotPasswordText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 760,
+            "y": 640,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Forgot your password?",
+            "align": "center",
+            "fontFamily": "Burbank Small",
+            "fontSize": "38px",
+            "color": "#ffffffff"
+        },
+        {
+            "type": "Text",
+            "id": "fcc63679-e96c-4630-9cdc-16b9d8093b38",
+            "label": "createAccountTextUpper",
+            "scope": "CLASS",
+            "components": [],
+            "x": 760,
+            "y": 735,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Don't have a penguin?",
+            "align": "center",
+            "fontFamily": "Burbank Small",
+            "fontSize": "34px",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Text",
+            "id": "b9ec419c-3a65-4666-b909-37e6e3eaae5c",
+            "label": "createAccountTextLower",
+            "scope": "CLASS",
+            "components": [],
+            "x": 760,
+            "y": 775,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Create a free account now",
+            "align": "center",
+            "fontFamily": "Burbank Small",
+            "fontSize": "34px",
+            "color": "#ffffffff"
+        },
+        {
+            "type": "Text",
+            "id": "e7c7b207-7548-4313-8c77-57b31df26d8c",
+            "label": "rulesText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 760,
+            "y": 865,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Club Penguin Rules",
+            "align": "center",
+            "fontFamily": "Burbank Small",
+            "fontSize": "45px",
+            "color": "#ffffffff"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

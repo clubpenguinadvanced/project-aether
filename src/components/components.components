@@ -1,0 +1,136 @@
+{
+    "components": [
+        {
+            "name": "Button",
+            "baseClass": "SimpleButton",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "spriteName",
+                    "label": "Sprite Name",
+                    "tooltip": "Sprite Name",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "hoverCallback",
+                    "label": "Hover Callback",
+                    "tooltip": "Hover Callback",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "hoverOutCallback",
+                    "label": "Hover Out Callback",
+                    "tooltip": "Hover Out Callback",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "callback",
+                    "label": "Callback",
+                    "tooltip": "Callback",
+                    "defValue": "() => {}",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "activeFrame",
+                    "label": "Active Frame",
+                    "tooltip": "Active Frame",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "pixelPerfect",
+                    "label": "Pixel Perfect",
+                    "tooltip": "Pixel Perfect",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SimpleButton",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "hoverCallback",
+                    "label": "Hover Callback",
+                    "tooltip": "Hover Callback",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "hoverOutCallback",
+                    "label": "Hover Out Callback",
+                    "tooltip": "Hover Out Callback",
+                    "defValue": "null",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "callback",
+                    "label": "Callback",
+                    "tooltip": "Callback",
+                    "defValue": "() => {}",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "expression",
+                        "expressionType": "any"
+                    }
+                },
+                {
+                    "name": "pixelPerfect",
+                    "label": "Pixel Perfect",
+                    "tooltip": "Pixel Perfect",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "EventComponent",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.GameObject",
+            "properties": []
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "insertSpaces": true
+}
